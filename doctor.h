@@ -18,7 +18,7 @@ private:
 public:
     void set(string,int,int);
     void print ();
-    doctor(int,int);
+    doctor(int=0,int=0);
 };
 
 
