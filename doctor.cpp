@@ -7,10 +7,12 @@
 #include <string>
 using namespace std;
 
-void doctor::set(string a,int b,int c){
-    x.name=a;
-    x.durationOfTreatment=b;
-    x.TreatmentCost=c;
+void doctor::set(string name,int money,int nof){
+    numberOfPatients=nof;
+    person::set(name,money);
+
+
+
 }
 doctor::doctor(int nof, int tc) {
     numberOfPatients=nof;
@@ -20,4 +22,7 @@ doctor::doctor(int nof, int tc) {
         x.durationOfTreatment[i]=0;
         x.TreatmentCost[i]=0;
     }
+}
+void doctor::print(){
+
 }
