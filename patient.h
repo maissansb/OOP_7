@@ -17,9 +17,10 @@ private:
     int durationOfTreatment,TreatmentCost;
 public:
     void set();
-    void getCost();
-    void getDuration();
+    int getCost();
+    int getDuration();
     void print();
+    patient(string=" ",int=0,int=0);
 };
 
 
