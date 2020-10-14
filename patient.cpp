@@ -22,6 +22,6 @@ patient::patient(string n,int d,int c){
     durationOfTreatment=d;
     TreatmentCost=c;
 }
-void print(){
+void patient:: print(){
 cout<<name<<" was treated for "<<durationOfTreatment<<" minutes, at a cost "<<TreatmentCost<< " dirham per minute "<<endl;
 }
