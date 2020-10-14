@@ -15,10 +15,11 @@ class doctor: public person{
 private:
     patient x [20];
     int numberOfPatients,totalCost;
+    void calculatetotal();
 public:
     void set(string,int,int);
     void print ();
-    doctor(int=0,int=0);
+    doctor(string="",int=0,int=0);
 };
 
 
