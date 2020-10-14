@@ -12,8 +12,8 @@ void person::set(string n,int m){
     name=n;
     money=m;
 }
-int getMoney(){
-
+int person:: getMoney(){
+    return money;
 }
 person::person(string n, int m){
     name=n;
